@@ -4,12 +4,12 @@
     "slug": "TimeCalc",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/timecalcicon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/timecalcsplash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#121212"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/timecalc_adaptive.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.oleemonster.TimeCalc"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/timecalcfavicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5bb99b58-d92b-41b3-a342-39d01092225f"
+      }
     }
   }
 }
